@@ -1,0 +1,19 @@
+{
+  "name": "typescript_blockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://ejung-park@github.com/ejung-park/typescript_blockchain.git",
+  "author": "ejung <leejungstyle@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js \" "
+  },
+  "devDependencies": {
+    "tsc": "^1.20150623.0",
+    "tsc-watch": "^4.0.0"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "typescript": "^3.7.2"
+  }
+}
